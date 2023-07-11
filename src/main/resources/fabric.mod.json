@@ -1,48 +1,39 @@
 {
-  "schemaVersion": 1,
-
-  "id": "example",
-  "version": "${version}",
-  "license": "MIT",
-
-  "name": "Example",
-  "icon": "assets/example/icon.png",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-
-  "authors": [
-    "andante."
-  ],
-
-  "contact": {
-    "homepage": "https://andantet.github.io/",
-    "sources": "https://github.com/andantet/example",
-    "issues": "https://github.com/andantet/example/issues"
-  },
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "me.andante.example.Example"
-    ]
-  },
-  "mixins": [
-    "example.mixins.json"
-  ],
-  "accessWidener": "example.accesswidener",
-
-  "depends": {
-    "fabricloader": ">=0.12.12",
-    "fabric": "*",
-    "minecraft": ">=1.18",
-    "java": ">=17"
-  },
-
-  "custom": {
-    "modmenu": {
-      "badges": [],
-      "links": {
-        "mod.example.contact.discord": "https://discord.gg/example"
-      }
-    }
-  }
+	"schemaVersion": 1,
+	"id": "pantheon",
+	"version": "0.0.1",
+	"name": "Pantheon",
+	"description": "REACH FOR THE HEAVENS",
+	"authors": [
+		"Nova"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/pantheon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nova.pantheon.Pantheon"
+		],
+		"client": [
+			"nova.pantheon.PantheonClient"
+		]
+	},
+	"mixins": [
+		"pantheon.mixins.json",
+		{
+			"config": "pantheon.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*",
+		"revelationary": ">=1.3.2"
+	}
 }
