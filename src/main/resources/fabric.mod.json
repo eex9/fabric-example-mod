@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "pantheon",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"name": "Pantheon",
 	"description": "REACH FOR THE HEAVENS",
 	"authors": [
@@ -20,7 +20,10 @@
 		],
 		"client": [
 			"nova.pantheon.PantheonClient"
-		]
+		],
+		"cardinal-components-entity": [
+            "nova.pantheon.init.PantheonComponents"
+        ]
 	},
 	"mixins": [
 		"pantheon.mixins.json",
@@ -29,11 +32,19 @@
 			"environment": "client"
 		}
 	],
+	"custom": {
+        "cardinal-components": [
+            "pantheon:pantheon_component"
+        ]
+    },
 	"depends": {
 		"fabricloader": ">=0.14.21",
 		"minecraft": "~1.19.2",
 		"java": ">=17",
 		"fabric-api": "*",
+		"cardinal-components-base": ">=3.0.0",
+		"cardinal-components-entity" : ">=3.0.0",
+		"voidcrafting": ">=1.7.1",
 		"revelationary": ">=1.3.2"
 	}
 }

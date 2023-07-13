@@ -1,4 +1,31 @@
 {
     "mod.pantheon.name": "Pantheon",
-    "mod.pantheon.contact.discord": "Discord"
-  }
+    "mod.pantheon.contact.discord": "Discord",
+
+    "gui.pantheon.dowsing_rod_message.star": "You are of STAR",
+    "gui.pantheon.dowsing_rod_message.death": "You are of DEATH",
+    "gui.pantheon.dowsing_rod_message.blood": "You are of BLOOD",
+    "gui.pantheon.dowsing_rod_message.empty": "You are mortal",
+    
+    "item.pantheon.cloth": "Fabric",
+    "item.pantheon.iron_clasp": "Cloak Clasp",
+    "item.pantheon.cloth_mantle": "Simple Mantle",
+    "item.pantheon.veil": "Simple Veil",
+    "item.pantheon.dowsing_rod": "Wishbone",
+
+    "item.pantheon.star_fragment": "Star Fragment",
+    "item.pantheon.fallen_star": "Fallen Star",
+    "item.pantheon.star_clasp": "Starsteel Clasp",
+    "item.pantheon.starsteel_ingot": "Starsteel Ingot",
+    "item.pantheon.crest_star": "Mantle of Stars",
+
+    "item.pantheon.crown_shard": "Crown Shard",
+    "item.pantheon.totem_fragment": "Totem Shard",
+    "item.pantheon.chipped_crown": "Chipped Crown",
+    "item.pantheon.crest_blood": "Crown of False Kings",
+
+    "item.pantheon.midnight_fabric": "Midnight Fabric",
+    "item.pantheon.faded_veil" : "Faded Veil",
+    "item.pantheon.angel_feather": "Angel Feather",
+    "item.pantheon.crest_death": "Veil of Endings"
+}
