@@ -1,6 +1,7 @@
 # Fabric Example Mod
 
-My custom fork of [fabricmc/fabric-example-mod](https://github.com/fabricmc/fabric-example-mod), tailored for my own needs.
+Fork of [fabricmc/fabric-example-mod](https://github.com/fabricmc/fabric-example-mod).
+Aims to add more to the endgame of minecraft. Work in progress.
 
 ## License
 
