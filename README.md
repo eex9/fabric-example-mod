@@ -1,4 +1,4 @@
-# Fabric Example Mod
+# Pantheon
 
 WIP Minecraft mod that aims to add more to the endgame of minecraft.
 
