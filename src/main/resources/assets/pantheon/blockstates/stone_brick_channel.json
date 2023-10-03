@@ -1,0 +1,41 @@
+{
+    "multipart": [
+        {
+            "apply": {
+                "model": "pantheon:block/stone_brick_channel/none"
+            }
+        },
+        {
+            "when": {
+                "north": "true"
+            },
+            "apply": {
+                "model": "pantheon:block/stone_brick_channel/north"
+            }
+        },
+        {
+            "when": {
+                "east": "true"
+            },
+            "apply": {
+                "model": "pantheon:block/stone_brick_channel/east"
+            }
+        },
+        {
+            "when": {
+                "south": "true"
+            },
+            "apply": {
+                "model": "pantheon:block/stone_brick_channel/south"
+            }
+        },
+        {
+            "when": {
+                "west": "true"
+            },
+            "apply": {
+                "model": "pantheon:block/stone_brick_channel/west"
+            }
+        }
+    ]
+}

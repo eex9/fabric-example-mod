@@ -1,0 +1,21 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "advancement.pantheon.materials.title"
+        },
+        "description": {
+            "translate": "advancement.pantheon.materials.description",
+            "color": "green"
+        },
+        "icon": {
+            "item": "pantheon:dowsing_rod"
+        }
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pantheon:pantheon/root"
+}

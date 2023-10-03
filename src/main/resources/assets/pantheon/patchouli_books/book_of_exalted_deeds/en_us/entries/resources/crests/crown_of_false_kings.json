@@ -1,0 +1,17 @@
+{
+    "name": "Crown of False Kings",
+    "icon": "pantheon:crest_blood",
+    "category": "pantheon:resources",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Finally! The alloy I was speculating about was gold and $(l:divinity)divinity$(), and with 3 $(l:crown_shards)Crown Shards$(), I can create the $(l:chipped_crown)Chipped Crown$(). $(br2)By placing 3 $(l:crowned_gems)Crowned Gems$() into the $(l:chipped_crown)Chipped Crown$(), it is resored to its former glory as the $(l)Crown of False Kings$()!"
+        },
+        {
+            "type": "patchouli:smithing",
+            "recipe": "pantheon:crest_blood_2",
+            "title": "Crown of False Kings"
+        }
+    ],
+    "sortnum":0
+}

@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "advancement.pantheon.ascension_ritual.title"
+        },
+        "description": {
+            "translate": "advancement.pantheon.ascension_ritual.description",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "pantheon:divinity_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pantheon:pantheon/create_ascension_pedestal"
+}

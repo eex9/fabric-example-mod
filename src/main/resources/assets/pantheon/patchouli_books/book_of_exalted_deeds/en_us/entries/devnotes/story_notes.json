@@ -1,0 +1,21 @@
+{
+    "name": "Story Notes",
+    "icon": "minecraft:writable_book",
+    "category": "pantheon:dev_notes",
+    "advancement": "pantheon:hidden/reveal_devnotes",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Hello! I was going to write this in a google doc or something, but I thought it might be fun to share my process with you all. $(br2)The story is based on a lot of other media I like - I won't bother listing them all here. The storyline, roughly, is as follows."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Asteri becomes interested in the gods after hearing the end poem. $()$(br)$(li)Asteri finds a number of crests after some research, but doesn't know how to make them. $()$(br)$(li)After finding the neccessary components for your pantheon, Asteri makes their first crest."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)When the crest doesn't do anything, Asteri realizes the crests themselves are just marks of the pantheon and that the ascension needs something else $()$(br)$(li)Asteri creates the Ascension pedestal $()$(br)$(li)(more to come)"
+        }
+    ],
+    "sortnum":0
+}

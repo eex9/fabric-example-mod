@@ -1,0 +1,16 @@
+{
+    "name": "Pantheons",
+    "icon": "pantheon:creative_id",
+    "category": "pantheon:general",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Through my research, I seek to find the gods - yet I fall short. Though, this endeavor has not been fruitless. This research has made the domains of the gods known to me, and offers me a possibility..."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)of $(l)Star$(), guardians of the night sky. $(br)$(li)of $(l)Death$(), watchers of the veil that keeps us standing. $(br)$(li)of $(l)Blood$(), warriors for justice and breakers of chains."
+        }
+    ],
+    "sortnum":1
+}

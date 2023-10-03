@@ -1,6 +1,6 @@
 # Pantheon
 
-WIP Minecraft mod that aims to add more to the endgame of minecraft.
+dont worry about it.
 
 ## License
 

@@ -1,27 +1,26 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-      "FCF",
-      "SMS",
-      "F F"
+        "FCF",
+        "SMS",
+        "F F"
     ],
     "key": {
-      "F": {
-        "item": "pantheon:star_fragment"
-      },
-      "C": {
-        "item": "pantheon:star_clasp"
-      },
-      "S": {
-        "item": "pantheon:fallen_star"
-      },
-      "M": {
-        "item": "pantheon:cloth_mantle"
-      }
+        "F": {
+            "item": "pantheon:star_fragment"
+        },
+        "C": {
+            "item": "pantheon:star_clasp"
+        },
+        "S": {
+            "item": "pantheon:fallen_star"
+        },
+        "M": {
+            "item": "pantheon:cloth_mantle"
+        }
     },
     "result": {
-      "item": "pantheon:crest_star",
-      "count": 1
+        "item": "pantheon:crest_star",
+        "count": 1
     }
-  }
-
+}

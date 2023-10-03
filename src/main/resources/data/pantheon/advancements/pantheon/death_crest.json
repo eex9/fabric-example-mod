@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "advancement.pantheon.death_crest.title"
+        },
+        "description": {
+            "translate": "advancement.pantheon.death_crest.description",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "pantheon:crest_death"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pantheon:pantheon/faded_veil"
+}

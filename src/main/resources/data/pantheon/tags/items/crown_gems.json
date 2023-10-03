@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "pantheon:totem_fragment",
+        "pantheon:fallen_star",
+        "pantheon:ender_fluorite",
+        "pantheon:nether_cinnabar",
+        "minecraft:nether_star"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Developer Notes",
+    "description": "Some notes and behind-the-scenes work for this mod. Non-canon - Here be spoilers!$(br)      -Astra",
+    "icon": "pantheon:divinity_block",
+    "sortnum": 9999999,
+    "secret": true
+}

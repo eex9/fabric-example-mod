@@ -3,12 +3,16 @@ package nova.pantheon;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import me.shedaniel.autoconfig.AutoConfig;
+import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
 import net.fabricmc.api.ModInitializer;
-
+import nova.pantheon.config.PantheonConfig;
 import nova.pantheon.init.*;
 
 public class Pantheon implements ModInitializer {
     public static final String MODID = "pantheon";
+
+    public static PantheonConfig PANTHEON_CONFIG;
 
     public static final String STAR = "STAR";
     public static final String DEATH = "DEATH";
@@ -27,6 +31,13 @@ public class Pantheon implements ModInitializer {
         // Proceed with mild caution.
         LOGGER.info("hello minecraft world :3");
 
+        AutoConfig.register(PantheonConfig.class, JanksonConfigSerializer::new);
+        PANTHEON_CONFIG = AutoConfig.getConfigHolder(PantheonConfig.class).getConfig();
+
         PantheonItems.init();
+        PantheonBlocks.init();
+        PantheonEntities.init();
+
+
     }
 }

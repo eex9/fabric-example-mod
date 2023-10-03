@@ -3,7 +3,12 @@
 	"package": "nova.pantheon.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"PantheonMixin"
+		"StarPantheonMixin",
+        "TotemMixin"
+	],
+	"client": [
+		"InGameHudMixin",
+		"ItemRenderMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
