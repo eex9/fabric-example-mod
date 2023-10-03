@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "advancement.pantheon.divinity_shard.title"
+        },
+        "description": {
+            "translate": "advancement.pantheon.divinity_shard.description",
+            "color": "green"
+        },
+        "icon": {
+            "item": "pantheon:divinity_shard"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pantheon:pantheon/divinity"
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "pantheon:item/handheld_oversized",
+    "textures": {
+        "layer0": "pantheon:item/supernova_sword"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "in_world": 1.0
+            },
+            "model": "pantheon:item/oversized/supernova_sword"
+        }
+    ]
+}

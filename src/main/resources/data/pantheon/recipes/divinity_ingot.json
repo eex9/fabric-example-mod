@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DDD",
+        "DND",
+        "DDD"
+    ],
+    "key": {
+        "D": {
+            "item": "pantheon:divinity_shard"
+        },
+        "N": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "item": "pantheon:divinity_ingot"
+    }
+}

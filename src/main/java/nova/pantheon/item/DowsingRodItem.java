@@ -21,7 +21,9 @@ public class DowsingRodItem extends Item {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
         PantheonComponent component = PantheonComponents.PlayerPantheonComponent.get(player);
         MinecraftClient mc = MinecraftClient.getInstance();
-        mc.inGameHud.setOverlayMessage((Text.translatable("gui.pantheon.dowsing_rod_message." + component.getPantheon().toLowerCase())), false);
+        mc.inGameHud.setOverlayMessage(
+                (Text.translatable("gui.pantheon.dowsing_rod_message." + component.getPantheon().toLowerCase())),
+                false);
         return TypedActionResult.success(player.getStackInHand(hand));
     }
 }

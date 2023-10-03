@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "advancement.pantheon.create_ascension_pedestal.title"
+        },
+        "description": {
+            "translate": "advancement.pantheon.create_ascension_pedestal.description",
+            "color": "green"
+        },
+        "icon": {
+            "item": "pantheon:stone_brick_pedestal"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "pantheon:pantheon/root"
+}

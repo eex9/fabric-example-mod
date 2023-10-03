@@ -1,0 +1,6 @@
+{
+    "parent": "pantheon:item/handheld_oversized",
+    "textures": {
+        "layer0": "pantheon:item/oversized/ichor_greatsword"
+    }
+}

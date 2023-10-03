@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "pantheon:block/genesis_matter"
+        }
+    }
+}

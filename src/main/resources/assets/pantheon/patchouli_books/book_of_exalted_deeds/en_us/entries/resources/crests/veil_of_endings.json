@@ -1,0 +1,17 @@
+{
+    "name": "Veil of Endings",
+    "icon": "pantheon:crest_death",
+    "category": "pantheon:resources",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Finally! With $(l:midnight_fabric)Midnight Fabric$(), a $(l:faded_veil)Faded Veil$(), some $(l:angel_feathers)Angel Feathers$(), and a $(l:totem_fragment)Totem Fragment$(), I believe I have created the legendary $(l)Veil of Endings$()."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "pantheon:crest_death",
+            "title": "Veil of Endings"
+        }
+    ],
+    "sortnum":0
+}

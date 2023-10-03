@@ -1,0 +1,27 @@
+{
+    "name": "Crests",
+    "icon": "pantheon:crest_blood",
+    "category": "pantheon:general",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The marks of the gods come in all forms. The ones that interest me the most are physical extensions of their being - I call them $(l)Crests$(), though I am missing many of the materials I would need to make something such as these. $(br2)These notes are from images and recreations I have been able to find of the crests."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "pantheon:crest_star",
+            "text": "of $(l)Star$(), the $(l)$(l:resources/mantle_of_stars)Mantle of Stars$(). I know of a process for imbuing cloth with different materials, but what could achieve the sky-like texture? And that metal that makes up the clasp... I have never seen anything like it."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "pantheon:crest_death",
+            "text": "of $(l)Death$(), the $(l)$(l:resources/veil_of_endings)Veil of Endings$(). The fabric is darker than the night sky, and this veil seems to obscure the face of the wearer more than normal. Not to mention those feathers - they're not from any animal I've seen."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "pantheon:crest_blood",
+            "text": "of $(l)Blood$(), the $(l)$(l:resources/crown_of_false_kings)Crown of False Kings$(). The metal seems to be gold, but theres another sheen to it that suggests that it's alloyed with some other material. The gems ringing are of a kind I have never seen before as well."
+        }
+    ],
+    "sortnum":1
+}

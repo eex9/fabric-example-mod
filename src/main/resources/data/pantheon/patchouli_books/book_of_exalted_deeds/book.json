@@ -1,0 +1,8 @@
+{
+    "name": "item.pantheon.book_of_exalted_deeds",
+    "landing_text": "item.pantheon.book.landing_text",
+    "model": "pantheon:book_of_exalted_deeds",
+    "version": 3,
+    "creative_tab": "pantheon:pantheon",
+    "use_resource_pack": true
+}

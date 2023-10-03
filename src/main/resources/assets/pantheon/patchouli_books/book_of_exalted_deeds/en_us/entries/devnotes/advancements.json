@@ -1,0 +1,20 @@
+{
+    "name": "Advancement Notes",
+    "icon": "minecraft:diamond",
+    "category": "pantheon:dev_notes",
+    "advancement": "pantheon:hidden/reveal_devnotes",
+    "pages": [
+        {
+            "type": "patchouli:image",
+            "images": [
+                "/images/advancements_devnotes.png"
+            ],
+            "text": "A mockup of the advancement structure of the mod."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "I knew I wanted advancements from the start, but I wasn't sure what the structure should look like until later into development. $(br)The lower portion has all the materials leading up to the crests. The upper portion has the storyline from creating the "
+        }
+    ],
+    "sortnum": 0
+}

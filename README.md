@@ -1,6 +1,6 @@
-# Fabric Example Mod
+# Pantheon
 
-My custom fork of [fabricmc/fabric-example-mod](https://github.com/fabricmc/fabric-example-mod), tailored for my own needs.
+dont worry about it .
 
 ## License
 
