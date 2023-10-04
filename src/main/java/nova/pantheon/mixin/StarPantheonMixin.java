@@ -46,8 +46,8 @@ public abstract class StarPantheonMixin extends LivingEntity {
                     this.abilities.flying = false;
                 }
             }
-            if (((this.world.getLightLevel(LightType.BLOCK, this.getBlockPos()) >= 7)
-                || this.world.getLightLevel(LightType.SKY, this.getBlockPos()) >= 7)
+            if (((this.getWorld().getLightLevel(LightType.BLOCK, this.getBlockPos()) >= 7)
+                || this.getWorld().getLightLevel(LightType.SKY, this.getBlockPos()) >= 7)
                 && (!this.abilities.flying)) {
                 pantheonComponent.gainStarlight(PANTHEON_CONFIG.PASSIVE_STARLIGHT_REGEN_AMOUNT);
             }

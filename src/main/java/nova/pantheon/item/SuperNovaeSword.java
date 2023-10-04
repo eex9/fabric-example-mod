@@ -38,7 +38,7 @@ public class SuperNovaeSword extends SwordItem {
 
             StarlightStrikeEntity projectile = new StarlightStrikeEntity(world, player);
             projectile.refreshPositionAndAngles(player.getX(), player.getEyeY(), player.getZ(), 0, 0);
-            projectile.setProperties(player, player.getPitch(), player.getYaw(), 0f, 1.5f, 1);
+            projectile.setProperties(player, player.getPitch(), player.getYaw(), 0f);
             projectile.setOwner(player);
             projectile.setPitch(player.getPitch());
             projectile.setYaw(player.getYaw());

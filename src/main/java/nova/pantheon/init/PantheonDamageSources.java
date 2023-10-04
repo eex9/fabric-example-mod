@@ -1,44 +1,19 @@
 package nova.pantheon.init;
 
 import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.damage.DamageType;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.util.Identifier;
+import net.minecraft.world.World;
 
-public class PantheonDamageSources{
-    public static final DamageSource MOONLIGHT_STRIKE = new PantheonDamageSource("pantheon_starlight_strike");
+import static nova.pantheon.Pantheon.MODID;
 
-    public static class PantheonDamageSource extends DamageSource {
-		
-		private boolean dropsPlayerLoot = false;
+public class PantheonDamageSources {
+    public static final RegistryKey<DamageType> MOONLIGHT_STRIKE = RegistryKey.of(RegistryKeys.DAMAGE_TYPE,
+            new Identifier(MODID, "moonlight_strike"));
 
-		protected PantheonDamageSource(String name) {
-			super(name);
-		}
-
-		@Override
-		public PantheonDamageSource setUnblockable() {
-			super.setUnblockable();
-			return this;
-		}
-		
-		@Override
-		public PantheonDamageSource setBypassesArmor() {
-			super.setBypassesArmor();
-			return this;
-		}
-		
-		@Override
-		public PantheonDamageSource setFromFalling() {
-			super.setFromFalling();
-			return this;
-		}
-		
-		public PantheonDamageSource setDropsPlayerLoot() {
-			this.dropsPlayerLoot = true;
-			return this;
-		}
-		
-		public boolean dropsPlayerLoot() {
-			return this.dropsPlayerLoot;
-		}
-		
-	}
+    public static DamageSource of(World world, RegistryKey<DamageType> key) {
+        return new DamageSource(world.getRegistryManager().get(RegistryKeys.DAMAGE_TYPE).entryOf(key));
+    }
 }
