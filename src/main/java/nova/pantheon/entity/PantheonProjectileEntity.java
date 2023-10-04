@@ -15,9 +15,9 @@ public abstract class PantheonProjectileEntity extends ProjectileEntity {
         super(entityType, world);
     }
 
-    @Override
-    public void setProperties(Entity player, float pitch, float yaw, float roll, float modifierZ, float modifierXYZ) {
-        super.setProperties(player, pitch, yaw, roll, modifierZ, modifierXYZ);
+    public void setProperties(Entity player, float pitch, float yaw, float roll) {
+        this.setOwner(player);
+        this.setRotation(yaw, pitch);
         this.setVelocity(this.getVelocity().subtract(0, player.isOnGround() ? 0.0D : player.getVelocity().y, 0));
 
         // Offset so it's not in your face

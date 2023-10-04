@@ -8,6 +8,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.damage.DamageTypes;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
@@ -35,7 +36,7 @@ public abstract class TotemMixin {
 
     @Inject(method = "tryUseTotem", at = @At("HEAD"), cancellable = true)
     public void revive(DamageSource damageSource, CallbackInfoReturnable<Boolean> cir) {
-        if (damageSource.isOutOfWorld()) {
+        if (damageSource.isOf(DamageTypes.OUT_OF_WORLD)) {
             return;
         }
         if (!(_this() instanceof PlayerEntity player)) {
@@ -50,7 +51,7 @@ public abstract class TotemMixin {
             addStatusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 100, 1));
             addStatusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 800, 0));
             pantheonComponent.cheatDeath();
-            _this().world.sendEntityStatus(_this(), (byte)35);
+            _this().getWorld().sendEntityStatus(_this(), (byte)35);
             returnValue = true;
         } else if (getStackInHand(Hand.MAIN_HAND).isOf(Items.TOTEM_OF_UNDYING)
                 || getStackInHand(Hand.OFF_HAND).isOf(Items.TOTEM_OF_UNDYING)) {

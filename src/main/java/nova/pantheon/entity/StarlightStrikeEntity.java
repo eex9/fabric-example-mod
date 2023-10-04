@@ -45,7 +45,7 @@ public class StarlightStrikeEntity extends PantheonProjectileEntity {
         super.onEntityHit(entityHitResult);
         Entity entity = entityHitResult.getEntity();
         if ((entity instanceof LivingEntity livingEntity)) {
-            livingEntity.damage(PantheonDamageSources.MOONLIGHT_STRIKE, damage);
+            livingEntity.damage(PantheonDamageSources.of(livingEntity.getWorld(), PantheonDamageSources.MOONLIGHT_STRIKE), damage);
             livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 60, 0));
         }
     }

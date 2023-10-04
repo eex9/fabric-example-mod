@@ -24,3 +24,6 @@ production/
 #wtf
 logs/
 .cache/
+
+#stuff
+./run_mods

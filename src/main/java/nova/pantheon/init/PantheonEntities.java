@@ -25,8 +25,11 @@ public class PantheonEntities {
             boolean alwaysUpdateVelocity, EntityDimensions size, boolean fireImmune,
             EntityType.EntityFactory<X> factory) {
         FabricEntityTypeBuilder<X> builder = FabricEntityTypeBuilder.create(SpawnGroup.MISC, factory)
-                .trackRangeChunks(trackingDistance).updateIntervalTicks(updateIntervalTicks)
-                .alwaysUpdateVelocity(alwaysUpdateVelocity).setDimensions(size).fireImmune(fireImmune);
+                .trackRangeChunks(trackingDistance).trackedUpdateRate(updateIntervalTicks)
+                .forceTrackedVelocityUpdates(alwaysUpdateVelocity).dimensions(size);
+        if (fireImmune) {
+            builder.fireImmune();
+        }
         return Registry.register(Registries.ENTITY_TYPE, new Identifier(MODID, name), builder.build());
     }
 
