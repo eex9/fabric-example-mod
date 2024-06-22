@@ -5,6 +5,10 @@
     "advancement": "pantheon:hidden/reveal_devnotes",
     "pages": [
         {
+            "type":"patchouli:text",
+            "text":"Written: Sometime in 2020 i dont remember"
+        },
+        {
             "type": "patchouli:text",
             "text": "Hello! I was going to write this in a google doc or something, but I thought it might be fun to share my process with you all. $(br2)The story is based on a lot of other media I like - I won't bother listing them all here. The storyline, roughly, is as follows."
         },

@@ -1,0 +1,21 @@
+{
+    "name": "Advancement Notes",
+    "icon": "pantheon:ritual_dagger",
+    "category": "pantheon:dev_notes",
+    "advancement": "pantheon:hidden/reveal_devnotes",
+    "pages": [
+        {
+            "type":"patchouli:text",
+            "text":"Written: Jun 22, 2024"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "I lost motivation to work on this mod for about 4 years. I picked this back up to make it playable for a server I was working on, with the goal of making it fully survival-playable."
+        },
+        {
+            "type":"patchouli:text",
+            "text":"I started by working on the progression in survival from the start of the mod, which would start after the player defeated the dragon and had entered an end city."
+        }
+    ],
+    "sortnum": 0
+}

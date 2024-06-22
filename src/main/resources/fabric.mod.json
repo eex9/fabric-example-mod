@@ -1,9 +1,9 @@
 {
     "schemaVersion": 1,
     "id": "pantheon",
-    "version": "v1.2.0",
+    "version": "v2.0.0",
     "name": "Pantheon",
-    "description": "It's almost like you could touch the heavens.",
+    "description": "REACH FOR THE HEAVENS",
     "authors": [
         "midnight__sun"
     ],
@@ -23,7 +23,7 @@
         ]
     },
     "mixins": [
-        "amalgam.mixins.json"
+        "pantheon.mixins.json"
     ],
     "custom": {
         "cardinal-components": [

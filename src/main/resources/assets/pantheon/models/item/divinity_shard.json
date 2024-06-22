@@ -1,6 +1,0 @@
-{
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "pantheon:item/divinity_shard"
-	}
-}

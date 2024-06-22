@@ -13,12 +13,7 @@ import nova.pantheon.entity.*;
 import static nova.pantheon.Pantheon.MODID;
 
 public class PantheonEntities {
-    public static EntityType<StarlightStrikeEntity> STARLIGHT_STRIKE_ENTITY;
-
     public static void init() {
-
-        STARLIGHT_STRIKE_ENTITY = register("starlight_strike", 4, 10, true,
-                EntityDimensions.changing(1.5F, 0.5F), true, StarlightStrikeEntity::new);
     }
 
     public static <X extends Entity> EntityType<X> register(String name, int trackingDistance, int updateIntervalTicks,

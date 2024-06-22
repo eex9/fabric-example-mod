@@ -19,6 +19,7 @@ public class DowsingRodItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
+        if (!world.isClient()) return TypedActionResult.success(player.getStackInHand(hand));
         PantheonComponent component = PantheonComponents.PlayerPantheonComponent.get(player);
         MinecraftClient mc = MinecraftClient.getInstance();
         mc.inGameHud.setOverlayMessage(
