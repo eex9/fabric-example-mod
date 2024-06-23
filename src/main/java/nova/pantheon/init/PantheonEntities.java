@@ -7,7 +7,6 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.Identifier;
-import nova.pantheon.entity.*;
 
 import static nova.pantheon.Pantheon.MODID;
 

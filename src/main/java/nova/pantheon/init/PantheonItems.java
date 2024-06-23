@@ -4,13 +4,10 @@ import static nova.pantheon.Pantheon.MODID;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.*;
-import net.minecraft.client.render.model.json.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.registry.*;
-import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import nova.pantheon.item.*;
 
